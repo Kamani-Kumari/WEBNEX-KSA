@@ -1,0 +1,95 @@
+body{
+    padding:0px;
+    margin:0px;   
+}
+.nav{
+background-color: rgb(33, 33, 33);
+position: fixed;
+height: 120px;
+width: 100%;
+padding-left:3px;
+}
+.nav-heading{
+    position: absolute;
+top:10px;
+left:100px;
+right:0px auto;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.nav img{
+    width: 70px;
+    height: 70px;
+        display: block;
+    border:1px solid rgb(249, 246, 246);
+    border-radius:50px;
+}
+.navbar-items ul{
+    color:white;
+    cursor: pointer;
+    
+}
+.navbar-items li{
+    display: inline;
+    padding-left: 140px;
+}
+.navbar-items li a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.navbar-items li a:hover{
+    text-decoration: underline;
+  color:rgb(172, 185, 231);
+}
+.image-background{
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     border-radius: 8px;
+     object-fit: contain;
+     background-color: black;
+}
+.image-background img{
+    object-fit:contain;
+    max-width: 100%;
+            max-height: 100%;
+}
+footer{
+    height: 130px;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.home-footer
+{    flex:1;
+    margin-right: 20px;
+}
+.footer-heading{
+    font-weight: bold;
+    margin-bottom: 10px ;
+    padding-left: 20px;
+}
+.footer-list li
+{
+    padding-top: 3px;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.footer-list li:hover{
+    margin-bottom: 5px;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.women-visit{
+    
+}
+

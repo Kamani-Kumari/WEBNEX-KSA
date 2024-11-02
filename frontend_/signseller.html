@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signuser.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sign-form">
+        <form method="get" action=" ">
+            <h2 class="form-heading">SignUp</h2>
+            <input type="text" id="name" name="name" required placeholder="Name">
+            <br>
+            
+            <input type="text" id="username" name="username" required placeholder="Username">
+            <br>
+
+            <input type="tel" id="contact" name="contact" required placeholder="Contact Number">
+            <br>
+           
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <br>
+
+            <input type="text" id="adress" name="adress" required placeholder="Address">
+            <br>
+    
+            
+            <input type="password" id="password" name="password" required placeholder="Password">
+             <br>
+
+             <input type="password" id="password" name="password" required placeholder="Confirm Password">
+             <br>
+             <input class="pass" type="checkbox" onclick="myFunction()">Show password
+           <br>           
+            <button type="submit">Register</button>
+            <br>
+            
+            <p>Already have an account?<a href="login.html">Login Up</a></p>
+    
+        </form>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("password");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
+</body>
+</html>

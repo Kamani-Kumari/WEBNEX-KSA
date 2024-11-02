@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-form">
+    <form method="get" action=" ">
+        <h2 class="form-heading">Login</h2>
+        
+      <input type="text" id="username" name="username" required placeholder="Username">
+        <br>
+
+       <input type="password" id="password" name="password" required placeholder="Password">
+      <br>
+      <input class="pass" type="checkbox" onclick="myFunction()">Show password
+      <br>
+      <a class="fg" href="#" class="forget">Forgot Password?</a>
+        <br>
+        <button type="submit">Login</button>
+        
+        
+        <p>Don't have an account?
+          <br>
+          User: <a href="signuser.html">Sign Up</a>
+        <br>
+        Seller: <a href="Signseller.html">Sign Up</a>
+        </p>
+
+
+    </form>
+
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("password");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+        </script>
+</body>
+</html>
